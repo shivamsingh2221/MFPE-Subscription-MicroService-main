@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: subscriptionservicerepos
-        image: samplecr1.azurecr.io/subscriptionservicerepos:latest
+        image: samplecr.azurecr.io/subscriptionservicerepos:latest
         ports:
         - containerPort: 8080
       imagePullSecrets:
